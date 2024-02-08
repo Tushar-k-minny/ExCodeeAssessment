@@ -50,8 +50,11 @@ const index = () => {
         </div>
         <div className="subscribe max-w-[400px] flex flex-col px-4 py-6 border-3 rounded-3xl bg-[#203C860D] gap-2">
           <div>Subscribe</div>
-          <form className="flex flex-row h-[50px] border-2 rounded-full">
-            <input className="w-full rounded-full" />
+          <form className="bg-white flex flex-row h-[50px] border-2 rounded-full">
+            <input
+              className="w-full rounded-full px-5 pt-1"
+              placeholder="Email address"
+            />
             <button className="bg-blue-400 px-5 pt-1 rounded-full ">
               <Image src={Submit} alt={"submit button"} height={20} />
             </button>
