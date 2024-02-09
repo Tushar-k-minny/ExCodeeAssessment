@@ -18,22 +18,28 @@ The weFrame Assignment project is a web application developed using Next.js. It 
 
 ### Frontend
 
-1.  Navigate to the frontend directory:
+1. Clone this repo :
+
+```bash
+git clone https://github.com/Tushar-k-minny/ExCodeeAssessment/
+```
+
+2.  Navigate to the frontend directory:
 
 ```bash
 cd folder_name
 ```
 
-2.Install dependencies :
+3.Install dependencies :
 
 ```bash
 npm install
 ```
 
-3.Run the development server:
+4.Run the development server:
 
 ```bash
 npm run dev
 ```
 
-4.  Open your browser and visit `http://localhost:3000` to explore the frontend application.
+5.  Open your browser and visit `http://localhost:3000` to explore the frontend application.
