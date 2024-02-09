@@ -6,7 +6,7 @@ import ReviewSection from "@/components/LandingPage/ReviewSection";
 import ChooseUsSection from "@/components/LandingPage/ChooseUsSection";
 import TeamSection from "@/components/LandingPage/TeamSection";
 import LastSection from "@/components/LandingPage/LastSection";
-import Footer from "../components/Footer";
+
 import React from "react";
 
 function Home() {
@@ -14,17 +14,14 @@ function Home() {
     <div>
       <HeroSection />
 
-      <section className="">
-        <ChallengesSection />
-        <ServicesSection />
+      <ChallengesSection />
+      <ServicesSection />
 
-        <TrustSection />
-        <ReviewSection />
-        <ChooseUsSection />
-        <TeamSection />
-        <LastSection />
-        <Footer />
-      </section>
+      <TrustSection />
+      <ReviewSection />
+      <ChooseUsSection />
+      <TeamSection />
+      <LastSection />
     </div>
   );
 }

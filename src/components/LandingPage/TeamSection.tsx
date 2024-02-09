@@ -29,7 +29,7 @@ const TeamSection = () => {
 
       <div className=" flex flex-col justify-center items-center text-center pt-20 gap-12">
         <h3 className="text-4xl font-medium ">{"Let's Form Your Crew."}</h3>
-        <button className="text-md font-base bg-[#3171DE] px-5 pt-2 pb-1 rounded-full text-white">
+        <button className="text-md font-base bg-[#3171DE] px-5  py-1 rounded-full text-white">
           Schedule a Call
         </button>
       </div>

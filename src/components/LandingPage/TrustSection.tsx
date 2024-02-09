@@ -17,7 +17,7 @@ const TrustSection = () => {
         </p>
       </div>
       <TestScroll />
-      <button className="bg-[#3171DE] px-3 pt-2 pb-1 rounded-full text-center text-white mb-8 mt-4 ">
+      <button className="bg-[#3171DE] px-3 py-1 rounded-full text-center text-white mb-8 mt-4 ">
         Our full repertorie
       </button>
     </section>

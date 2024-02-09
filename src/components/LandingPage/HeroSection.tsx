@@ -19,7 +19,7 @@ const HeroSection = () => {
         </p>
         <button
           className={
-            "bg-[#66B066] px-4 pt-2 pb-1 mt-4 rounded-full text-white"
+            "bg-[#66B066] px-4 py-1 mt-4 rounded-full text-white"
           }>
           See projects
         </button>
