@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        "infinite-scroll-primary": "infinite-scroll-primary 5s linear infinite",
+        "infinite-scroll-primary":
+          "infinite-scroll-primary 10s linear infinite",
       },
 
       keyframes: {

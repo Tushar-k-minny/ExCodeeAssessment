@@ -20,6 +20,7 @@ export default function RootLayout({
       <body className={epilogue.className + " "}>
         <nav><NavBar/></nav>
         <main>{children}</main>
+       
       </body>
     </html>
   );
